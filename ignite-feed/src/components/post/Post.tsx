@@ -36,6 +36,8 @@ export default function Post({ author, content, publishedAt }: IPostProps) {
   }
 
   function handleNewCommentChange(event: any) {
+    event.target.setCustomValidity('')
+    
     setNewCommentText(event?.target.value);
   }
 
@@ -45,6 +47,12 @@ export default function Post({ author, content, publishedAt }: IPostProps) {
     })
     setComments(commentsWithoutDeletedOne)
   }
+
+  function handleNewCommentInvalid(event: any) {
+    event.target.setCustomValidity('This field is mandatory')
+  }
+
+  const isNewCommentEmpty = newCommentText.length === 0
 
   return (
     <article className={styles.post}>
@@ -89,9 +97,16 @@ export default function Post({ author, content, publishedAt }: IPostProps) {
           placeholder="Type here..."
           value={newCommentText}
           onChange={(e) => handleNewCommentChange(e)}
-        ></textarea>
+          required
+          onInvalid={handleNewCommentInvalid}
+        />
         <footer>
-          <button type="submit">Send</button>
+          <button 
+            disabled={isNewCommentEmpty} 
+            type="submit"
+          >
+            Send
+          </button>
         </footer>
       </form>
 
