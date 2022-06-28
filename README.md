@@ -2,22 +2,22 @@
 
 That is a new project from Ignite Module at Rocketseat WebSite
 
-Vercel Link to test: https://ignite-feed-739mtj8hk-fariapv.vercel.app/
+**Vercel Link to test:** https://ignite-feed-739mtj8hk-fariapv.vercel.app/
 
 That is a simple blog feed that help me to learn all the React Fundamentals.
 
-We have:
+### **We have:**
 - Web Version
 - Mobile Version (Responsive)
 
-I used:
+### **I used:**
 - Vite
  - React - Typescript
 - CSS Modules
 - Date FNS
 - Phosphor Icons
 
-You can:
+### **You can:**
 - Create and Delete a Comment
 - Like a Comment
 
