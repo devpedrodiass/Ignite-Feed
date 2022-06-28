@@ -24,14 +24,14 @@ export default function Comment({ content, onDeleteComment }: ICommentProps) {
     <div className={styles.comment}>
       <Avatar
         hasBorder={false}
-        imageURL="https://github.com/maykbrito.png"
+        imageURL="https://github.com/fariapv.png"
       ></Avatar>
 
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
           <header>
             <div className={styles.authorAndTime}>
-              <strong>Mayk Brito</strong>
+              <strong>Pedro Dias</strong>
               <time 
                 title="11 Mayo - 08:13h" 
                 dateTime="2022-05-11 08:13:30"
