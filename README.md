@@ -1,23 +1,23 @@
-# Ignite-Feed
+# 🚀 Ignite-Feed 🚀
 
 That is a new project from Ignite Module at Rocketseat WebSite.
 That is a simple blog feed that help me to learn all the React Fundamentals.
 
-**Vercel Link to test:** https://ignite-feed-739mtj8hk-fariapv.vercel.app/
-### **We have:**
-- Web Version
-- Mobile Version (Responsive)
+### 👉 Link to Access: https://ignite-feed-739mtj8hk-fariapv.vercel.app/
 
-### **I used:**
-- Vite
- - React - Typescript
-- CSS Modules
-- Date FNS
-- Phosphor Icons
+## ⚙ Config Section
 
-### **You can:**
-- Create and Delete a Comment
+ ### 🛠 Tools:
+ - Vite
+   -  React - Typescript
+ - CSS Modules
+ - Date FNS
+ - Phosphor Icons
+ 
+### ✔ You can:
+  - Create and Delete a Comment
 - Like a Comment
+
 
 ## Overview
 ![image](https://user-images.githubusercontent.com/62482908/176198919-41935518-7623-4491-9cfc-5f026449ecbe.png)
@@ -30,3 +30,5 @@ That is a simple blog feed that help me to learn all the React Fundamentals.
 
 ## Like a Comment
 ![image](https://user-images.githubusercontent.com/62482908/176199140-b553da3e-adb8-4c81-80c9-671296442a57.png)
+
+👉 Visit my linkedin: https://www.linkedin.com/in/pedrovdf/
