@@ -13,7 +13,7 @@ function Sidebar() {
       <img className={styles.cover} src={background} alt="" />
 
       <div className={styles.profile}>
-        <Avatar imageURL="https://github.com/fariapv.png"></Avatar>
+        <Avatar imageURL="https://github.com/pedr0d1as.png"></Avatar>
 
         <strong>Pedro Dias</strong>
         <span>Web Developer</span>
