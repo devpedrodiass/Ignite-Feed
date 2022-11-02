@@ -32,7 +32,7 @@ const posts: IPostProps[] = [
   {
     id: "2",
     author: {
-      avatarURL: "http://github.com/fariapv.png",
+      avatarURL: "http://github.com/pedr0d1as.png",
       name: "Pedro Dias",
       role: "Web Developer",
     },
